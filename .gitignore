@@ -1,0 +1,6 @@
+outputs/tb_logs/*
+data/*.zip
+data/PowerShellCorpus/**
+data/archive/**
+imdb/**/**
+.vscode/*
