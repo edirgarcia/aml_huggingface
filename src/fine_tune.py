@@ -34,7 +34,7 @@ if __name__ == "__main__":
     parser.add_argument('--pretrained_model_path', type=str, default = 'imdb_roberta_ft')
     parser.add_argument('--output_path', type=str, default = 'models/imdb_sentiment')
     parser.add_argument('--val_size', type=float, default = 0.05)
-    parser.add_argument('--epochs', type=int, default = 3)
+    parser.add_argument('--epochs', type=int, default = 2)
 
     args = parser.parse_args()
 
