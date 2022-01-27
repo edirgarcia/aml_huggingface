@@ -1,0 +1,15 @@
+Clone git repo
+git clone https://github.com/edirgarcia/aml_huggingface.git
+
+List conda envs, to see which to copy
+conda env list
+
+Activate any env with PyTorch
+conda activate azureml_py38_pytorch
+
+pip install missing requriements:
+pip install transformers datasets azureml-pipeline
+pip install ipywidgets --upgrade
+
+List env packages, to make sure cloning went ok
+conda list
