@@ -1,6 +1,3 @@
-outputs/tb_logs/*
-data/*.zip
-data/PowerShellCorpus/**
-data/archive/**
+onnx_models/**/**
 imdb/**/**
 .vscode/*

@@ -3,3 +3,6 @@ python src\run_mlm.py --model_type roberta --train_file data\imdb_unsupervised.c
 
 This fine tunes the model roberta base model
 python src\run_mlm.py --model_name_or_path roberta-base --train_file data\imdb_unsupervised.csv --validation_file data\imdb_unsupervised.csv --do_train --do_eval --output_dir imdb_roberta  --max_seq_length 512 --per_device_train_batch_size 2 --overwrite_output_dir
+
+This will convert to ONNX format
+python src/convert_to_onnx.py --framework pt --model imdb/models/imdb_sentiment onnx_models/imdb_sentiment/imdb_sentiment.onnx --pipeline sentiment-analysis 
